@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div:hover{
+            color: red;
+        }
+        .red{
+            background-color: red;
+        }
+        #green{
+            background-color: green;
+        }
+        .blue{
+            background-color: blue;
+        }
+        div > p{
+            background-color: yellow;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        <- Pseudo selector ->
+        a:visited{
+            color: yellow;
+        }
+        a:link{
+            color: orange;
+        }
+        a:active{
+            background-color: purple;
+        }
+        a:hover{
+            background-color: black;
+            color: brown;
+        }
+        p:first-child{
+            background-color:  aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="red">I am division</div>
+    <div class="blue" id="">I am also a division
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt repellendus, dignissimos, ex praesentium excepturi repudiandae vero dolore quae laborum illo nihil autem ipsa necessitatibus. Facere, itaque. Saepe quis ab rerum?</p>
+    </div>
+    <div class="green" id="green">I am also a division</div>
+    <a href="https://www.google.com">I am Google</a>
+</body>
+</html>

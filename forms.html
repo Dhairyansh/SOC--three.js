@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <form action="post">
+        <label for="username">Enter your username</label>
+        <input type="text" id="username" placeholder="Enter your username">
+        <div></div>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <div></div>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+            <h4>Eligibility</h4>
+        <div>
+            <input type="checkbox" id="eligiblity" name="eligible" >
+            <label for="eligiblity">I am eligible</label>
+        </div>
+    </form>
+    <h4>About yourself</h4>
+    <label for="textarea">start here</label>
+    <div></div>
+    <textarea rows="7" cols="50" name="textarea" id="textarea" placeholder="write here"></textarea>
+    <div></div>
+    <h4>Enter your religious beliefs</h4>
+    <select name="beliefs" id="beliefs">
+        <option value="none">none</option>
+        <option value="atheist">atheist</option>
+        <option value="believer">believer</option>
+        <option value="spiritual">spiritual</option>
+    </select>
+</body>
+</html>

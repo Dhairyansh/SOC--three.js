@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positon Property</title>
+    <style>
+          /* position relative means we can move 
+          the element using top , bottom ,z-index
+          etc. */
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .box{
+            height:133px;
+            /* width: 50px; */
+            border: 3px solid black;
+            padding: 3px;
+            margin: 3px;
+        }
+        .box1{
+            background-color:aqua;
+            position: relative;
+            top: 50px;
+            right: -50px;
+        }
+        .box2{
+            background-color:palegoldenrod ;
+            position: relative;
+            z-index: -10;
+        }
+        .box3{
+            background-color:bisque;
+        }
+        .box4{
+            background-color:forestgreen ;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+    <div class="box box3"></div>
+    <div class="box box4"></div>
+</body>
+</html>

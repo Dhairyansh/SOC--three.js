@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            color: purple;
+            border: 4px solid black;
+            width: 80vw;
+            text-align: center;
+            margin: auto;
+            margin: 10px;
+            background-color: rgb(139, 191, 139);
+        }
+
+        .container {
+            background-color: rgb(139, 191, 139);
+            width: 80vw;
+            text-align: center;
+            margin: auto;
+            margin: 10px;
+            border: 1vw solid black;
+        }
+
+        /* we use 'vw' instead of px so that the view 
+        the webpage adjusts according to the device screen
+        '100vw' is used to use full screenview*/
+        /*inline elememts can be altered using margin*/
+        /* 'vh': same as 'vw' the difference: height instead of width */
+        .container {
+            font-size: 2em;
+            box-sizing: border-box;
+        }
+
+        /* 'em': jitna ek particular element ko font size
+         milne wala tha uska em times font size ho jayega*/
+        /* 'rem': jitna root element ko font size
+         milne wala tha uska rem times font size ho jayega*/
+        .mycont {
+            background-color: maroon;
+            color: cadetblue;
+            font-size: 22px;
+            margin: auto;
+            margin: 10px;
+            border: 1vw solid black;
+            width: 100vmin;
+            font-size: 2em;
+            min-width: 80vh;
+        }
+
+        /* 'vmin'== height == 'vh' for this device, 'vw' for other device
+            'vmax'== width =='vw' for other device, 'vh' for this device
+         */
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        this is a box.
+    </div>
+    <p class="container">Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Sint molestias
+        tempore natus vitae laborum ab! Iste
+        vero odio debitis soluta
+        ducimus voluptates iure!</p>
+    <p class="mycont">
+        Lorem ipsum, dolor sit amet consectetur
+        adipisicing elit. Harum sit tempora consectetur,
+        nesciunt commodi magnam
+        quibusdam dolores ducimus corporis
+        consequuntur beatae voluptatibus sunt, nobis suscipit.
+        Error a debitis perspiciatis enim!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit enim, totam minus explicabo quis
+        expedita laboriosam earum sint quae! Earum sequi explicabo voluptatum ea eum sed eligendi similique.
+        Consequuntur, quas!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias eligendi accusamus cupiditate ipsa nulla nemo
+        beatae itaque minima, expedita eos perspiciatis voluptatem quaerat doloremque esse, omnis, rerum ut? Pariatur
+        quaerat dignissimos voluptatum aspernatur, corrupti facere maiores esse laudantium delectus sit rem odit itaque
+        molestias unde. Fuga, iure eius architecto mollitia ipsa, nulla, voluptates dolorum non quod natus eveniet nobis
+        facilis doloribus rem? Adipisci, quasi laudantium exercitationem debitis, porro nemo distinctio nostrum quod
+        tenetur possimus, perspiciatis id nisi ipsum. Deleniti quos, distinctio nostrum reprehenderit inventore mollitia
+        rem laudantium labore totam aut.
+    </p>
+</body>
+
+</html>

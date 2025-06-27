@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*universal selector:0 
+         element selector and pseudo selector:1 
+         class selector, attribute selector and pseudo class: 10
+         ID selector:100 
+         Inline styles:1000 
+         !important: 10000
+        */
+        h1{
+            color: magenta;
+        }
+        .yellow {
+            color: yellow;
+        }
+        .cred{
+            color: red;
+        }
+        [attribute-selector=a]{
+            background-color: pink;
+        }
+        .cpurple{
+            color: purple;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1 class="yellow cred cpurple" attribute-selector="a">specificity & cascade</h1>
+</body>
+
+</html>

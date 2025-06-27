@@ -1,0 +1,12 @@
+td{
+    border: 2px solid black;
+}
+th{
+    border: 2px solid grey;
+}
+caption{
+    border: 2px solid purple;
+}
+img{
+    border: 2px solid brown;
+}
